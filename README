@@ -1,0 +1,3 @@
+python cancer_classification/cancer_classification.py
+python dermatology_classification/dermatology_classification.py
+python microchips_classification/microchips_classification.py

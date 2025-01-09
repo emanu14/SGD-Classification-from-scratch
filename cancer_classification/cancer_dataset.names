@@ -1,0 +1,32 @@
+CANCER_DATASET Breast cancer dataset
+
+This dataset (9 Inputs attributes and 2 Targets attributes)can be used to classifies cancers as either benign or malignant depending on the characteristics of sample biopsies.
+
+Attribute Information:
+
+  cancerInputs - a 9x699 matrix defining nine attributes of 699 biopsies.
+
+    1. Clump thickness
+    2. Uniformity of cell size
+    3. Uniformity of cell shape
+    4. Marginal Adhesion
+    5. Single epithelial cell size
+    6. Bare nuclei
+    7. Bland chomatin
+    8. Normal nucleoli
+    9. Mitoses
+
+  cancerTargets - a 2x966 matrix where each column indicates a correct
+  category with a one in either element 1 or element 2.
+
+    1. Benign
+    2. Malignant
+
+This data is available from the UCI Machine Learning Repository.
+
+  http://mlearn.ics.uci.edu/MLRepository.html
+
+Murphy,P.M., Aha, D.W. (1994). UCI Repository of machine learning
+databases [http://www.ics.uci.edu/~mlearn/MLRepository.html].
+Irvine, CA: University of California,  Department of Information
+and Computer Science.

@@ -1,0 +1,9 @@
+
+Implementar una regresión softmax polinomial multivariable para predecir si los microchips de
+una planta de fabricación pasan el control de calidad. Durante el control de calidad, cada microchip pasa por varias pruebas para asegurarse de que funciona correctamente.
+
+Suponga que usted es el gerente de producto de la fábrica y tiene los resultados de la prueba de algunos microchips en dos pruebas diferentes. A partir de estas dos pruebas, determinar si los microchips deben aceptarse (t=1) o rechazarse (t=0).
+
+Para ayudarlo a tomar la decisión use el archivo microchips_dataset.dat, contiene un conjunto de datos de resultados de pruebas en microchips. La primera columna es el valor del puntaje de la prueba del microchip 1, segunda columna es el puntaje de la prueba del microchip 2 y la ultima columna es el marcador de la decisión de la prueba (aceptarse, t=1 o rechazarse, t=0).
+
+Estimar los parámetros desconocidos del modelo de regresión softmax polinomial multivariable (use un vector de características de mayor dimensión), usando optimización numérica y las métricas de desempeño del modelo de clasificación en función de los puntajes de control de calidad de los microchips.
